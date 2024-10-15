@@ -243,20 +243,6 @@ private void inicializarAnimacion_boton_jugar() {
     void softcursor5() {
     	animacion_soft_salir(animacion_cinco);
     }
-    
-    @FXML
-    void set_video1() {
-    	animacion_click_boton1(animacion_click1);
-
-    	cargar_video("https://www.youtube.com/embed/MxD7hDUjS_8");
-    }
-    
-    @FXML
-    void set_video2() {
-    	animacion_click_boton2(animacion_click2);
-    	cargar_video("https://www.youtube.com/embed/7kcF9v4oo7M");
-    }
-    
     @FXML
     private void iniciarJuego() {
     	animacion_click_boton3(animacion_click3);
